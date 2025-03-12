@@ -1,0 +1,48 @@
+{
+    "cars": [
+        {
+            "brand": "Toyota",
+            "model": "Camry",
+            "year": 2022,
+            "isElectric": false,
+            "specs": {
+                "engine": "2.5L I4",
+                "horsepower": 203,
+                "fuelType": "Gasoline"
+            },
+            "owners": [
+                {
+                    "firstName": "Ivan",
+                    "lastName": "Petrov",
+                    "document": {
+                        "type": "Passport",
+                        "serial": 1234,
+                        "number": 567890
+                    }
+                }
+            ]
+        },
+        {
+            "brand": "Tesla",
+            "model": "Model S",
+            "year": 2023,
+            "isElectric": true,
+            "specs": {
+                "batteryCapacity": "100 kWh",
+                "range": 396,
+                "horsepower": 1020
+            },
+            "owners": [
+                {
+                    "firstName": "Anna",
+                    "lastName": "Sidorova",
+                    "document": {
+                        "type": "Driver License",
+                        "serial": 5678,
+                        "number": 123456
+                    }
+                }
+            ]
+        }
+    ]
+}
